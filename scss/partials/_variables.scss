@@ -1,0 +1,18 @@
+//Colors
+$black : #1a1a1a;
+$white : #ffffff;
+$red : #ed1c24;
+$dk_gray : #1a1a1a;
+
+//Typography
+$base-font-size : 18px!important;
+$base-line-height : 2.2!important;
+
+@font-face {
+	font-family: hudsonnyserif;
+	src: url('fonts/hudsonnyserif-webfont.ttf');
+}
+@font-face {
+	font-family: rosarivo-regular;
+	src: url('fonts/rosarivo-regular-webfont.ttf');
+}

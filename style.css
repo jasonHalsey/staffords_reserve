@@ -1,0 +1,71 @@
+/*
+
+Theme Name: Stafford's Reserve
+Theme URI: http://theme.co/x/
+Author: Halsey Design LLC.
+Author URI: http://halsey-design.com/
+Description: Custom X Child Theme Developed for Stafford's Reserve
+Version: 1.0.0
+Template: x
+
+*/
+@font-face {
+  font-family: hudsonnyserif;
+  src: url("fonts/hudsonnyserif-webfont.ttf");
+}
+@font-face {
+  font-family: rosarivo-regular;
+  src: url("fonts/rosarivo-regular-webfont.ttf");
+}
+/* line 1, scss/partials/_layout.scss */
+body {
+  background-color: #ffffff !important;
+}
+
+/* line 4, scss/partials/_layout.scss */
+.x-section {
+  margin: 0em;
+  padding: 0px 0px 0px 0px !important;
+}
+
+/* line 8, scss/partials/_layout.scss */
+.x-navbar {
+  border-bottom: 0px solid transparent !important;
+  background-color: transparent !important;
+  box-shadow: 0 0 0 transparent !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 16, scss/partials/_layout.scss */
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 23, scss/partials/_layout.scss */
+.x-navbar .desktop .x-nav > li > a {
+  font-size: 16px !important;
+}
+
+/* line 28, scss/partials/_layout.scss */
+.img_half img {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* line 35, scss/partials/_layout.scss */
+.txt_col {
+  vertical-align: middle !important;
+  padding: 1.0em 5.0em;
+}
+
+/* line 39, scss/partials/_layout.scss */
+.just_text {
+  padding: 1em 0 !important;
+}

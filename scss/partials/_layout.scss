@@ -1,0 +1,41 @@
+body{
+	background-color: $white!important;
+}
+.x-section{
+    margin: 0em;
+    padding: 0px 0px 0px 0px!important;
+}
+.x-navbar {
+    border-bottom: 0px solid transparent!important;
+    background-color: transparent!important;
+    box-shadow: 0 0 0 rgba(0,0,0,0)!important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+header{
+	position: absolute;
+	width:100%;
+	top:0;
+	left:0;
+	right:0;
+}
+.x-navbar .desktop .x-nav > li > a {
+    font-size: 16px!important;
+}
+
+.img_half{
+	img{
+	    visibility: hidden;
+	    opacity: 0;
+	    width: 100%;
+	    height: auto;
+	 }
+}
+.txt_col {
+    vertical-align: middle !important;
+    padding: 1.0em 5.0em;
+}
+.just_text{
+	padding: 1.0em 0!important;
+}
