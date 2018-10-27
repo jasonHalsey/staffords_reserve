@@ -1,13 +1,11 @@
 //Colors
 $black : #1a1a1a;
 $white : #ffffff;
-$red : #ed1c24;
-$dk_gray : #1a1a1a;
-
-//Typography
-$base-font-size : 18px!important;
-$base-line-height : 2.2!important;
-
+$red : #4B3607;
+$maroon : #422f09;
+$dk_gray : #707070;
+$lt_grey : #cccccc;
+//Fonts
 @font-face {
 	font-family: hudsonnyserif;
 	src: url('fonts/hudsonnyserif-webfont.ttf');
@@ -16,3 +14,32 @@ $base-line-height : 2.2!important;
 	font-family: rosarivo-regular;
 	src: url('fonts/rosarivo-regular-webfont.ttf');
 }
+
+
+
+//Typography
+$base-font-size : 20px!important;
+$base-line-height : 2.75!important;
+
+p{
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	font-family: 'rosarivo-regular'!important;
+}
+h1{
+	font-family: 'hudsonnyserif'!important;
+	font-size: 4.0em;
+	font-weight: 300!important;
+}
+h2{
+	font-family: 'hudsonnyserif'!important;
+	font-size: 4.0em;
+	font-weight: 300!important;
+	color: $maroon!important;
+}
+h3{
+	font-family: 'hudsonnyserif'!important;
+	font-size: 1.0em;
+	font-weight: 300!important;
+}
+

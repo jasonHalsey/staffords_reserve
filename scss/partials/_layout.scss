@@ -13,6 +13,11 @@ body{
     transform: translate3d(0, 0, 0);
 }
 
+// .x-container.width{
+// 	 @media (max-width: 767px){
+// 	 	width:100%!important;
+// 	 }
+// }
 header{
 	position: absolute;
 	width:100%;
@@ -35,6 +40,9 @@ header{
 .txt_col {
     vertical-align: middle !important;
     padding: 1.0em 5.0em;
+    @media (max-width: 767px){
+    	padding: 1.0em 2.0em!important;
+    }
 }
 .just_text{
 	padding: 1.0em 0!important;

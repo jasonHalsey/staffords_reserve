@@ -28,6 +28,7 @@ add_filter('show_admin_bar', '__return_false');
 //enqueues our external font awesome stylesheet
 function enqueue_our_required_stylesheets(){
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); 
+	wp_enqueue_style('font-brands', 'https://use.fontawesome.com/releases/v5.4.1/css/brands.css');
 }
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 
@@ -43,6 +44,7 @@ function theme_url_shortcode( $attrs = array (), $content = '' ) {
 add_shortcode('theme', 'theme_url_shortcode' );
 
 
+
 /*  Add Custom Scripts
 /* ------------------------------------ */ 
 
@@ -54,6 +56,7 @@ add_shortcode('theme', 'theme_url_shortcode' );
   if (!is_admin()) add_action('wp_enqueue_scripts', 'jquery_enqueue', 11);
 
   function wpb_adding_scripts() {
+
 
 	wp_register_script('stafford', get_stylesheet_directory_uri() . '/js/stafford.js');
 
