@@ -1,14 +1,23 @@
 #western_bourbon{
 	p{
-		color:$red;
-		font-style: italic;
+		color:$white;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+		// font-style: italic;
+	}
+	h2{
+		color:$white;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
 	}
 }
 #grain_bill{
 	p{
 		color:$red;
-		font-style: italic;
+		// font-style: italic;
 	}
+	h2{
+		margin-top: 0.5em!important;
+	}
+
 	@media (max-width: 767px){
 		.e6-14.x-line, .e6-16.x-line {
 		    height: 20px;
@@ -32,11 +41,11 @@
 	}
 	p{
 		color:$white!important;
-		font-style: italic;
-		text-align: justify;
-		padding:0 5.0em!important;
-		line-height: 3!important;
-		font-size: 1.75em!important;
+		// font-style: italic;
+		// text-align: justify;
+		// padding:0 5.0em!important;
+		// line-height: 3!important;
+		// font-size: 1.75em!important;
 		@media (max-width: 767px){
 			padding: 0!important;
 			line-height: 1.75!important;
@@ -46,10 +55,10 @@
 	h2{
 		color:$white!important;
 		margin-top:0.0;
-		margin-bottom:0.35em;
+		// margin-bottom:0.35em;
 		font-size: 13.0em!important;
 		line-height: 0.8!important;
-		padding-left:0.55em;
+		// padding-left:0.55em;
 		@media (max-width: 767px){
 			padding-left:0em;
 			font-size: 4.5em!important;
@@ -58,7 +67,7 @@
 	}
 	h3{
 		color:$white!important;
-		padding-left:2.55em;
+		// padding-left:2.55em;
 		font-size: 3.0em!important;
 		margin-bottom: 0!important;
 		@media (max-width: 767px){
@@ -67,13 +76,20 @@
 			margin-bottom: 1.0em!important;
 		}
 	}
+	.water_col{
+		display: block;
+		max-width: 75%;
+		margin: 0 auto!important;
+		float:none;
+	}
 }
 
 #passion{
 	h1{
-		font-size: 5.85em!important;
+		font-size: 13.85em!important;
 		color:$white;
-		text-shadow: 2px 2px 1px rgba(150, 150, 150, 0.75);
+		text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+		line-height: 1.0!important;
 	}
 	 @media (max-width: 767px){
 	 	.e6-25.x-line, .e6-27.x-line {
@@ -81,14 +97,28 @@
 		}
 	}
 }
+.big_passions_contain{
+	display: block;
+	float:none;
+	width:inherit!important;
+	margin: 0 auto 0!important;
+
+}
 #passion_text{
+	.passion_txt_block{
+		max-width: 50%;
+	}
 	padding-top: 2.0em!important;
 	padding-bottom: 2.0em!important;
 	p{
 		color:$dk_gray;
-		font-style: italic;
+		// font-style: italic;
+	}
+	h2{
+		color:$red;
 	}
 }
+
 
 #contact{
 	text-align: center;
@@ -98,7 +128,7 @@
 	}
 	p{
 		color:$white!important;
-		font-style: italic;
+		// font-style: italic;
 	}
 	div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form input[type=text]{
 		background-color: transparent!important;
@@ -109,7 +139,7 @@
 	div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
 	    background-color: $maroon;
 	    border: 1px solid #ddd;
-	    color: $white;
+	    color: $formBTN-txt;
 	    font-size: 1.5em;
 	    padding: 10px 100px!important;
 	}
@@ -118,7 +148,7 @@
 
 footer{
 	color:#777777;
-	font-family: rosarivo-regular!important;
+	font-family: 'ALoveofThunder'!important;
 	h4 {
 	    text-transform: uppercase!important;
 	    letter-spacing: 1px!important;
@@ -126,7 +156,7 @@ footer{
 	    font-size: 1em!important;
 	    margin: 0 0 1em!important;
 	    color:$lt_grey;
-	    font-family: rosarivo-regular!important;
+	    font-family: 'ALoveofThunder'!important;
 	}
 	ul{
 		list-style-type: none!important;
