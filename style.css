@@ -145,7 +145,7 @@ header {
 @media (max-width: 767px) {
   /* line 33, scss/partials/_sections.scss */
   #water {
-    text-align: center;
+    text-align: left;
     padding-top: 2em !important;
     padding-bottom: 4em !important;
   }
@@ -224,58 +224,77 @@ header {
 }
 @media (max-width: 767px) {
   /* line 107, scss/partials/_sections.scss */
+  #passion h1 {
+    font-size: 4.85em !important;
+  }
+  /* line 110, scss/partials/_sections.scss */
   #passion .e6-25.x-line, #passion .e6-27.x-line {
     height: 10em;
   }
 }
 
-/* line 112, scss/partials/_sections.scss */
+/* line 115, scss/partials/_sections.scss */
 .big_passions_contain {
   display: block;
   float: none;
   width: inherit !important;
   margin: 0 auto 0 !important;
 }
+@media (max-width: 767px) {
+  /* line 115, scss/partials/_sections.scss */
+  .big_passions_contain {
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}
 
-/* line 119, scss/partials/_sections.scss */
+/* line 126, scss/partials/_sections.scss */
 #passion_text {
   padding-top: 2em !important;
   padding-bottom: 2em !important;
 }
-/* line 120, scss/partials/_sections.scss */
+/* line 127, scss/partials/_sections.scss */
 #passion_text .passion_txt_block {
   max-width: 50%;
 }
-/* line 125, scss/partials/_sections.scss */
+@media (max-width: 767px) {
+  /* line 127, scss/partials/_sections.scss */
+  #passion_text .passion_txt_block {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 2.0em;
+  }
+}
+/* line 137, scss/partials/_sections.scss */
 #passion_text p {
   color: #707070;
 }
-/* line 129, scss/partials/_sections.scss */
+/* line 141, scss/partials/_sections.scss */
 #passion_text h2 {
   color: #4B3607;
 }
 
-/* line 135, scss/partials/_sections.scss */
+/* line 147, scss/partials/_sections.scss */
 #contact {
   text-align: center;
 }
-/* line 137, scss/partials/_sections.scss */
+/* line 149, scss/partials/_sections.scss */
 #contact h1 {
   font-size: 3em !important;
   margin-top: 2.5em;
 }
-/* line 141, scss/partials/_sections.scss */
+/* line 153, scss/partials/_sections.scss */
 #contact p {
   color: #ffffff !important;
 }
-/* line 145, scss/partials/_sections.scss */
+/* line 157, scss/partials/_sections.scss */
 #contact div.wpforms-container-full .wpforms-form input[type=email], #contact div.wpforms-container-full .wpforms-form input[type=text] {
   background-color: transparent !important;
   width: 75% !important;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 151, scss/partials/_sections.scss */
+/* line 163, scss/partials/_sections.scss */
 #contact div.wpforms-container-full .wpforms-form input[type=submit], #contact div.wpforms-container-full .wpforms-form button[type=submit], #contact div.wpforms-container-full .wpforms-form .wpforms-page-button {
   background-color: #4b3607;
   border: 1px solid #ddd;
@@ -284,12 +303,12 @@ header {
   padding: 10px 100px !important;
 }
 
-/* line 161, scss/partials/_sections.scss */
+/* line 173, scss/partials/_sections.scss */
 footer {
   color: #777777;
   font-family: "ALoveofThunder" !important;
 }
-/* line 164, scss/partials/_sections.scss */
+/* line 176, scss/partials/_sections.scss */
 footer h4 {
   text-transform: uppercase !important;
   letter-spacing: 1px !important;
@@ -299,25 +318,25 @@ footer h4 {
   color: #cccccc;
   font-family: "ALoveofThunder" !important;
 }
-/* line 173, scss/partials/_sections.scss */
+/* line 185, scss/partials/_sections.scss */
 footer ul {
   list-style-type: none !important;
   margin-left: 0 !important;
 }
-/* line 177, scss/partials/_sections.scss */
+/* line 189, scss/partials/_sections.scss */
 footer li {
   margin-bottom: 1.0em;
 }
-/* line 180, scss/partials/_sections.scss */
+/* line 192, scss/partials/_sections.scss */
 footer a {
   color: #bbbbbb !important;
 }
-/* line 183, scss/partials/_sections.scss */
+/* line 195, scss/partials/_sections.scss */
 footer .social_i {
   margin-right: 0.5em;
 }
 
-/* line 188, scss/partials/_sections.scss */
+/* line 200, scss/partials/_sections.scss */
 .aspect-ratio-box {
   height: 0;
   overflow: hidden;
@@ -326,14 +345,14 @@ footer .social_i {
   position: relative !important;
 }
 @media (max-width: 767px) {
-  /* line 188, scss/partials/_sections.scss */
+  /* line 200, scss/partials/_sections.scss */
   .aspect-ratio-box {
     height: inherit !important;
     padding-top: 2em !important;
   }
 }
 
-/* line 199, scss/partials/_sections.scss */
+/* line 211, scss/partials/_sections.scss */
 .aspect-ratio-box-inside {
   position: absolute !important;
   top: 0 !important;
@@ -342,12 +361,12 @@ footer .social_i {
   height: 50% !important;
 }
 @media (max-width: 767px) {
-  /* line 199, scss/partials/_sections.scss */
+  /* line 211, scss/partials/_sections.scss */
   .aspect-ratio-box-inside {
     position: relative !important;
     height: inherit !important;
   }
-  /* line 208, scss/partials/_sections.scss */
+  /* line 220, scss/partials/_sections.scss */
   .aspect-ratio-box-inside p {
     padding: 0 1.0em;
   }

@@ -35,7 +35,7 @@
 	padding-bottom:12.0em!important;
 	background-color: #000;
 	@media (max-width: 767px){
-		text-align: center;
+		text-align: left;
 		padding-top:2.0em!important;
 		padding-bottom:4.0em!important;
 	}
@@ -104,6 +104,9 @@
 		line-height: 1.0!important;
 	}
 	 @media (max-width: 767px){
+	 	h1{
+			font-size: 4.85em!important;
+		}
 	 	.e6-25.x-line, .e6-27.x-line {
 		    height: 10em;
 		}
@@ -114,11 +117,20 @@
 	float:none;
 	width:inherit!important;
 	margin: 0 auto 0!important;
+	@media (max-width: 767px){
+		margin: 0!important;
+		width:100%!important;
+	}
 
 }
 #passion_text{
 	.passion_txt_block{
 		max-width: 50%;
+		@media (max-width: 767px){
+			width:100%;
+			max-width: 100%;
+			padding:0 2.0em;
+		}
 	}
 	padding-top: 2.0em!important;
 	padding-bottom: 2.0em!important;
@@ -208,4 +220,3 @@ footer{
   	p{padding: 0 1.0em;}
   }
 }
-
