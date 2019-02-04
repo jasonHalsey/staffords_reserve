@@ -65,7 +65,13 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 21, scss/partials/_layout.scss */
+/* line 23, scss/partials/_layout.scss */
+#x-nav-wrap-mobile {
+  padding: 0 0 0 1.5em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* line 27, scss/partials/_layout.scss */
 header {
   position: absolute;
   width: 100%;
@@ -74,12 +80,12 @@ header {
   right: 0;
 }
 
-/* line 28, scss/partials/_layout.scss */
+/* line 34, scss/partials/_layout.scss */
 .x-navbar .desktop .x-nav > li > a {
   font-size: 16px !important;
 }
 
-/* line 33, scss/partials/_layout.scss */
+/* line 39, scss/partials/_layout.scss */
 .img_half img {
   visibility: hidden;
   opacity: 0;
@@ -87,19 +93,19 @@ header {
   height: auto;
 }
 
-/* line 40, scss/partials/_layout.scss */
+/* line 46, scss/partials/_layout.scss */
 .txt_col {
   vertical-align: middle !important;
   padding: 1.0em 5.0em;
 }
 @media (max-width: 767px) {
-  /* line 40, scss/partials/_layout.scss */
+  /* line 46, scss/partials/_layout.scss */
   .txt_col {
     padding: 1em 2em !important;
   }
 }
 
-/* line 47, scss/partials/_layout.scss */
+/* line 53, scss/partials/_layout.scss */
 .just_text {
   padding: 1em 0 !important;
 }
